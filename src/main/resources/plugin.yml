@@ -1,0 +1,16 @@
+name: SteelShulkerEvent
+version: 1.0
+main: primest.steelshulkerevent.SteelShulkerEvent
+api-version: 1.16
+
+commands:
+  she:
+    usage: /she <start|stop|lootgui>
+    aliases:
+      - steelshulker
+      - shulkerevent
+    permission: she.admin
+
+permissions:
+  she.admin:
+    default: op
